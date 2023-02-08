@@ -1,0 +1,214 @@
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* FIRST PART */
+.one {
+    background: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-basis: 400px;
+    flex-direction: row;
+    text-align: center;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.header-logo {
+    font-weight: 900;
+    color: #F9FAF8;
+    font-size: 24px;
+    display: flex;
+}
+
+.link {
+    font-size: 18px;
+    color: #E5E7EB;
+    align-items: flex-end;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+/* Welcome */
+
+.one-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.first {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    width: 90px;
+    border: none;
+    background: #3882f6;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 8px 16px;
+    text-align: center;
+    align-items: center;
+}
+
+img {
+    width: 500px;
+    height: 400px;
+}
+
+/* SECOND PART*/
+
+.two {
+    margin: 10px;
+}
+
+.title-two {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo {
+    width: 300px;
+    height: 200px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 52px;
+}
+
+.info {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+/* THIRD PART */
+
+.three {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    width: auto;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.motivation,
+.motivation-three {
+    width: 700px;
+}
+
+.motivation {
+    font-size: 36px;
+}
+
+.motivation-three {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+}
+
+/* FOURTH PART */
+
+.four {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 200px;
+    padding: 20px 80px;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.text-four-first {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.text-four-two {
+    color: white;
+}
+
+.four-one {
+    display: flex;  
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sign-up-four {
+    border-radius: 4px;
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+    font-size: 15px;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+    background: #1F2937;
+    color: white;
+}
